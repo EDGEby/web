@@ -6,21 +6,19 @@
 
     <link rel="stylesheet" href="css/Style.css">
 </head>
+
 <body>
-<hgroup>
-    <h1>Material Design Form</h1>
-    <h3>By Josh Adamous</h3>
-</hgroup>
-<form>
+<form action="login" method="post">
+
     <div class="group">
-        <input type="text"><span class="highlight"></span><span class="bar"></span>
-        <label>Name</label>
-    </div>
-    <div class="group">
-        <input type="email"><span class="highlight"></span><span class="bar"></span>
+        <input type="email" name="email"><span class="highlight"></span><span class="bar"></span>
         <label>Email</label>
     </div>
-    <button type="button" class="button buttonBlue">Subscribe
+    <div class="group">
+        <input type="password" name="password"><span class="highlight"></span><span class="bar"></span>
+        <label>Password</label>
+    </div>
+    <button type="submit" class="button buttonBlue">LOG IN
         <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
     </button>
 </form>
